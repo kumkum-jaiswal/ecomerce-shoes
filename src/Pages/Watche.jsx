@@ -66,11 +66,9 @@ const ans=mydata.map((key)=>{
         <h1> Our Best Offer Products</h1>
        </div>
        
-       <div id="homeProduct">
+       <div id="homeroduct">
         {ans}        
        </div>
-        
- 
         </>
      );
 }

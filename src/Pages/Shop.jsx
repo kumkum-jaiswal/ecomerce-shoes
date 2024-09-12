@@ -205,7 +205,7 @@ console.log(pricemydata);
     return(
         <>
           <div id="shoppage">
-            <div style={{width:"350px", paddingLeft:"20px",paddingTop:"20px", fontSize:"11px", fontWeight:"bold"}}>       
+            <div style={{width:"750px",backgroundColor:"whitesmoke", borderRadius:"22px solid black",paddingLeft:"80px",paddingTop:"100px", fontSize:"11px", fontWeight:"bold"}}>       
              <h5> Search By Category</h5> 
               <br/>
               <input type="radio" value="men" name="cat" onChange={(e)=>{setCatData(e.target.value)}} /> Mens Watches
@@ -241,7 +241,7 @@ console.log(pricemydata);
         <h1> Our Premium Watches</h1>
        </div>
        
-       <div id="homeProduct">
+       <div id="homeproduct1">
            
             {displayState?ans:ans1}
                  

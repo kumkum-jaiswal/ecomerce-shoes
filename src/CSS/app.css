@@ -7,7 +7,6 @@
 #homeproduct{
     display: flex;
     justify-content:space-around;
-    margin: auto;
     flex-wrap: wrap;
     margin-left: 45px;
     margin-right: 50px;
@@ -15,6 +14,58 @@
      box-shadow: 0px,5px,4px,8px; 
     /* background-color: aliceblue;  */
     
+}
+#homeroduct{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-left: 45px;
+    margin-right: 50px;
+   
+     box-shadow: 0px,5px,4px,8px; 
+    /* background-color: aliceblue;  */
+    
+}
+#MenProduct{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-left: 45px;
+    margin-right: 50px;
+   
+     box-shadow: 0px,5px,4px,8px; 
+    /* background-color: aliceblue;  */
+    
+}
+#WomenProduct{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-left: 45px;
+    margin-right: 50px;
+   
+     box-shadow: 0px,5px,4px,8px; 
+}
+#homeproduct1{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-left: 45px;
+    margin-right: 50px;
+   
+     box-shadow: 0px,5px,4px,8px; 
+    /* background-color: aliceblue;  */
+    
+}
+#kidProduct{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-left: 45px;
+    margin-right: 50px;
+   
+     box-shadow: 0px,5px,4px,8px; 
+
 }
 /* #homeproduct:hover{
     transform: scale(0.9);
@@ -112,12 +163,12 @@
 {
     display: flex;
     justify-content: space-between;
-    width: 60%;
+    /* width: 60%; */
 }
 #s1{
     height: 300px;
     width: 400px;
-    background-color: rgb(240, 161, 150);
+    background-color: aliceblue;
     padding-left: 15px;
     margin-top: 25px;
 }
