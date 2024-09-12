@@ -40,7 +40,7 @@ const TopMenu = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link as={Link} to ="home">HOME</Nav.Link>
-            <Nav.Link as={Link} to ="service">SERVICES</Nav.Link>
+            <Nav.Link as={Link} to ="Service">SERVICES</Nav.Link>
             <Nav.Link as={Link} to ="product">PRODUCTS</Nav.Link>
             <Nav.Link as={Link} to ="shop">SHOP</Nav.Link>
             <Nav.Link as={Link} to ="watch">OFFER</Nav.Link>
@@ -50,11 +50,11 @@ const TopMenu = () => {
             
            
             <NavDropdown title="CATEGORY" id="collapsible-nav-dropdown">
-              <NavDropdown.Item as={Link} to="kidswatches">Kids Shoes</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="menswatches">
+              <NavDropdown.Item as={Link} to="kidsProduct">Kids Shoes</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="mensProduct">
                 Mens Shoes
               </NavDropdown.Item>
-              <NavDropdown.Item  as={Link} to="womenswatches">Women Shoes</NavDropdown.Item>
+              <NavDropdown.Item  as={Link} to="womensProduct">Women Shoes</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item as={Link} to="prewatches">
                Premium Shoes
